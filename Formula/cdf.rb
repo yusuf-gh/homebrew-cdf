@@ -18,7 +18,7 @@ class Cdf < Formula
       Then, run `source ~/.zshrc` or `source ~/.bashrc` to apply the changes.
     EOS
   end
-  test doc
+  test do
     assert_predicate bin/"cdf", :exist?
     assert_predicate bin/"cdf", :executable?
   end
