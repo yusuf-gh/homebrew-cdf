@@ -1,8 +1,8 @@
 class Cdf < Formula
   desc "Interactive directory navigation using fzf"
   homepage "https://github.com/yusuf-gh/homebrew-cdf"
-  url "https://github.com/yusuf-gh/cdf/releases/download/v1.0.0/cdf-1.0.0.tar.gz"
-  sha256 "b191347503d4cbcfdc8d646945a2a54cb67f94ddc0496d9d7ec4d6301370f8af"
+  url "https://github.com/yusuf-gh/cdf/releases/download/v1.0.1/cdf-1.0.1.tar.gz"
+  sha256 "8250f221a6c6fdc57ff7729e0f88ca7fd16b6c67bc0b1dbc22e764c6b35b1d1f"
   license "MIT"
 
   depends_on "fzf"
